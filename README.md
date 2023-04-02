@@ -34,20 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-output-dtype-policies
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@deno/mod.js';
+var policies = require( '@stdlib/ndarray-output-dtype-policies' );
 ```
 
 #### policies()
@@ -70,6 +80,8 @@ The output `array` contains the following data type policies:
 -   `floating_point`: return a floating-point data type (i.e., either real-valued or complex-valued).
 -   `real_floating_point`: return a real-valued floating-point data type.
 -   `complex_floating_point`: return a complex-valued floating-point data type.
+-   `real`: return a real-valued data type.
+-   `numeric`: return a numeric data type.
 
 </section>
 
@@ -92,8 +104,8 @@ The output `array` contains the following data type policies:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@deno/mod.js';
-import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@deno/mod.js';
+var indexOf = require( '@stdlib/utils-index-of' );
+var policies = require( '@stdlib/ndarray-output-dtype-policies' );
 
 var POLICIES = policies();
 
@@ -146,7 +158,7 @@ bool = isPolicy( 'beep' );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
