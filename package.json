@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-output-dtype-policies",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "List of output ndarray data type policies.",
   "license": "Apache-2.0",
   "author": {
