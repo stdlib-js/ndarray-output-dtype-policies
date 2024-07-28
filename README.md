@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@esm/index.mjs';
+import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@esm/index.mjs';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.2.2-esm/index.mjs';
 ```
 
 #### policies()
@@ -112,7 +112,7 @@ The output `array` contains the following data type policies:
 <script type="module">
 
 import indexOf from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@esm/index.mjs';
-import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@esm/index.mjs';
+import policies from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.2.2-esm/index.mjs';
 
 var POLICIES = policies();
 
