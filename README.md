@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-output-dtype-policies
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-policies = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var policies = require( 'path/to/vendor/umd/ndarray-output-dtype-policies/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.policies;
-})();
-</script>
+var policies = require( '@stdlib/ndarray-output-dtype-policies' );
 ```
 
 #### policies()
@@ -88,19 +82,28 @@ var out = policies();
 // e.g., returns [ 'same', 'promoted', ... ]
 ```
 
-The output `array` contains the following data type policies:
+The output array contains the following data type policies:
 
 -   `same`: return the same data type.
 -   `promoted`: return a promoted data type.
--   `bool`: return a boolean data type.
+-   `boolean`: return a boolean data type.
+-   `boolean_and_generic`: return a boolean or "generic" data type.
 -   `signed_integer`: return a signed integer data type.
+-   `signed_integer_and_generic`: return a signed integer or "generic" data type.
 -   `unsigned_integer`: return an unsigned integer data type.
+-   `unsigned_integer_and_generic`: return an unsigned integer or "generic" data type.
 -   `integer`: return an integer data type (i.e., either signed or unsigned).
+-   `integer_and_generic`: return an integer (i.e., either signed or unsigned) or "generic" data type.
 -   `floating_point`: return a floating-point data type (i.e., either real-valued or complex-valued).
+-   `floating_point_and_generic`: return a floating-point (i.e., either real-valued or complex-valued) or "generic" data type.
 -   `real_floating_point`: return a real-valued floating-point data type.
+-   `real_floating_point_and_generic`: return a real-valued or "generic" floating-point data type.
 -   `complex_floating_point`: return a complex-valued floating-point data type.
+-   `complex_floating_point_and_generic`: return a complex-valued or "generic" floating-point data type.
 -   `real`: return a real-valued data type.
+-   `real_and_generic`: return a real-valued or "generic" data type.
 -   `numeric`: return a numeric data type.
+-   `numeric_and_generic`: return a numeric or "generic" data type.
 -   `default`: return the default data type.
 
 </section>
@@ -123,14 +126,9 @@ The output `array` contains the following data type policies:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var indexOf = require( '@stdlib/utils-index-of' );
+var policies = require( '@stdlib/ndarray-output-dtype-policies' );
 
 var POLICIES = policies();
 
@@ -152,11 +150,6 @@ bool = isPolicy( 'promoted' );
 
 bool = isPolicy( 'beep' );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
