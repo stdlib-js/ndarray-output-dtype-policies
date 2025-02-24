@@ -2,6 +2,61 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-02-24)
+
+<section class="features">
+
+### Features
+
+-   [`2b8c0d7`](https://github.com/stdlib-js/stdlib/commit/2b8c0d7579975a2fffdcf8cd8607d93ab8fe5658) - add policies which support returning a \"generic\" data type
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ba9b416`](https://github.com/stdlib-js/stdlib/commit/ba9b4160f16f1ae1a7f8603920ae0a9f43e6b29f) - rename `bool` to `boolean` to match data type kind and avoid conflict with `bool` data type
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ba9b416`](https://github.com/stdlib-js/stdlib/commit/ba9b4160f16f1ae1a7f8603920ae0a9f43e6b29f) - **fix:** rename `bool` to `boolean` to match data type kind and avoid conflict with `bool` data type _(by Athan Reines)_
+-   [`2b8c0d7`](https://github.com/stdlib-js/stdlib/commit/2b8c0d7579975a2fffdcf8cd8607d93ab8fe5658) - **feat:** add policies which support returning a \"generic\" data type _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
