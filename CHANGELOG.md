@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-30)
+## 0.3.0 (2026-01-30)
 
 <section class="features">
 
@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`06667ad`](https://github.com/stdlib-js/stdlib/commit/06667ad3af114bad67b73ec1e78352044612186e) - **feat:** add accumulation and index data type policies _(by Athan Reines)_
 -   [`ba9b416`](https://github.com/stdlib-js/stdlib/commit/ba9b4160f16f1ae1a7f8603920ae0a9f43e6b29f) - **fix:** rename `bool` to `boolean` to match data type kind and avoid conflict with `bool` data type _(by Athan Reines)_
 -   [`2b8c0d7`](https://github.com/stdlib-js/stdlib/commit/2b8c0d7579975a2fffdcf8cd8607d93ab8fe5658) - **feat:** add policies which support returning a \"generic\" data type _(by Athan Reines)_
@@ -47,9 +48,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
