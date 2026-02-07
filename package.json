@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-output-dtype-policies",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "List of output ndarray data type policies.",
   "license": "Apache-2.0",
   "author": {
@@ -38,16 +38,16 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
-    "@stdlib/utils-define-read-only-property": "^0.2.2",
-    "@stdlib/utils-keys": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
+    "@stdlib/utils-define-read-only-property": "^0.2.3",
+    "@stdlib/utils-keys": "^0.2.3",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/assert-has-own-property": "^0.2.2",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/assert-is-string-array": "^0.2.2",
-    "@stdlib/utils-index-of": "^0.2.2",
+    "@stdlib/assert-has-own-property": "^0.2.3",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
+    "@stdlib/assert-is-string-array": "^0.2.3",
+    "@stdlib/utils-index-of": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
