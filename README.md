@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+policies = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-output-dtype-policies/tags). For example,
+
+```javascript
 policies = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.3.1-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var policies = require( 'path/to/vendor/umd/ndarray-output-dtype-policies/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -145,7 +150,7 @@ The output array contains the following data type policies:
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-index-of@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@v0.3.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-output-dtype-policies@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
