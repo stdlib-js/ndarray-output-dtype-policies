@@ -1,9 +1,0 @@
-"use strict";var _=function(i,e){return function(){try{return e||i((e={exports:{}}).exports,e),e.exports}catch(n){throw (e=0, n)}};};var g=_(function(R,m){m.exports=["same","promoted","accumulation","boolean","boolean_and_generic","signed_integer","signed_integer_and_generic","unsigned_integer","unsigned_integer_and_generic","integer","integer_and_generic","floating_point","floating_point_and_generic","real_floating_point","real_floating_point_and_generic","complex_floating_point","complex_floating_point_and_generic","real_and_generic","real","numeric","numeric_and_generic","integer_index","integer_index_and_generic","boolean_index","boolean_index_and_generic","mask_index","mask_index_and_generic","default","default_index"]});var d=_(function(h,o){
-var x=g();function f(){return x.slice()}o.exports=f
-});var l=_(function(j,c){
-function v(){return{same:0,promoted:1,accumulation:2,boolean:3,boolean_and_generic:4,signed_integer:5,signed_integer_and_generic:6,unsigned_integer:7,unsigned_integer_and_generic:8,integer:9,integer_and_generic:10,floating_point:11,floating_point_and_generic:12,real_floating_point:13,real_floating_point_and_generic:14,complex_floating_point:15,complex_floating_point_and_generic:16,real:17,real_and_generic:18,numeric:19,numeric_and_generic:20,integer_index:21,integer_index_and_generic:22,boolean_index:23,boolean_index_and_generic:24,mask_index:25,mask_index_and_generic:26,default:27,default_index:28}}c.exports=v
-});var u=_(function(C,s){
-var b=require('@stdlib/utils-define-read-only-property/dist'),q=require('@stdlib/utils-keys/dist');function k(i,e){var n,a,r;for(n=q(e),r=0;r<n.length;r++)a=n[r],b(i,a,e[a]);return i}s.exports=k
-});var y=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),t=d(),p=l(),O=u();y(t,"enum",p);O(t,p());module.exports=t;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
